@@ -9,7 +9,7 @@
 
 本镜像以 Debian Jessie 为基础，并使用 [Libreswan](https://libreswan.org) (IPsec VPN 软件) 和 [xl2tpd](https://github.com/xelerance/xl2tpd) (L2TP 服务进程)。
 
-*其他语言版本: [English](README.md), [简体中文](README-zh.md).*
+*其他语言版本: [English](https://github.com/hwdsl2/docker-ipsec-vpn-server), [简体中文](https://github.com/hwdsl2/docker-ipsec-vpn-server/blob/master/README-zh.md).*
 
 ## 安装 Docker
 
@@ -103,7 +103,7 @@ docker exec -it ipsec-vpn-server ipsec status
 
 如果在连接过程中遇到错误，请参见 [故障排除](https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients-zh.md#故障排除)。
 
-开始使用自己的专属 VPN ! :sparkles::tada::rocket::sparkles:
+开始使用自己的专属 VPN !
 
 ## 技术细节
 
@@ -148,11 +148,11 @@ docker build -t hwdsl2/ipsec-vpn-server github.com/hwdsl2/docker-ipsec-vpn-serve
 - 现在正在积极寻找新的工作机会，比如软件或系统工程师
 - 在 LinkedIn 上与我联系： [https://www.linkedin.com/in/linsongui](https://www.linkedin.com/in/linsongui)
 
-感谢本项目所有的 <a href="https://github.com/hwdsl2/docker-ipsec-vpn-server/graphs/contributors" target="_blank">贡献者</a>！
+感谢本项目所有的 [贡献者](https://github.com/hwdsl2/docker-ipsec-vpn-server/graphs/contributors)！
 
 ## 授权协议
 
-版权所有 (C) 2016&nbsp;Lin Song&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/linsongui" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View my profile on LinkedIn"></a>   
+版权所有 (C) 2016 Lin Song   
 基于 [Thomas Sarlandie 的工作](https://github.com/sarfata/voodooprivacy) (Copyright 2012) (版权所有 2012)
 
 这个项目是以 [知识共享署名-相同方式共享3.0](http://creativecommons.org/licenses/by-sa/3.0/) 许可协议授权。   
